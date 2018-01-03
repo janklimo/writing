@@ -1,5 +1,5 @@
 # Partial Application of Functions in Elm
-A friend of mine recently raised a very interesting question. _If a function
+A friend of mine recently raised an interesting question. _If a function
 takes two arguments, why is its type annotation `f: a -> b-> c`? Wouldn't
 something like `f: (a, b) -> c` make more sense?_
 
@@ -21,7 +21,7 @@ returns a result:
 greeting "Hello" "DailyDrip" == "Hello, DailyDrip!"
 ```
 
-However, functions in Elm always take **exactly** one argument and return
+However, functions in Elm always take *exactly* one argument and return
 a result (hence the function type annotation syntax).
 
 Passing a single argument to our `greeting` function returns a new function
