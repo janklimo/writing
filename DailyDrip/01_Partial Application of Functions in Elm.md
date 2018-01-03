@@ -1,7 +1,7 @@
 # Partial Application of Functions in Elm
-A friend of mine recently raised a very interesting question. If a function
+A friend of mine recently raised a very interesting question. _If a function
 takes two arguments, why is its type annotation `f: a -> b-> c`? Wouldn't
-something like `f: (a, b) -> c` make more sense?
+something like `f: (a, b) -> c` make more sense?_
 
 A solid understanding of how Elm treats functions will make the answer clear
 and allow us to write better code.
