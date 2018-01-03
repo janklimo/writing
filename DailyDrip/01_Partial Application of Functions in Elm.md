@@ -24,7 +24,7 @@ greeting "Hello" "DailyDrip" == "Hello, DailyDrip!"
 However, functions in Elm always take **exactly** one argument and return
 a result (hence the function type annotation syntax).
 
-Passing a single argument to our greeting function returns a new function
+Passing a single argument to our `greeting` function returns a new function
 that takes one argument and returns a string (commented-out output in
 the examples below comes from `elm-repl`):
 
